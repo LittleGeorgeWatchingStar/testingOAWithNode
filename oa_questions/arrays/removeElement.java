@@ -36,3 +36,12 @@ public int removeElement( int[] nums, int val) {
     }
     return len;
 }
+
+public int removeElement( int[] nums, int val) {
+
+    int index = 0, len = nums.length;
+    while( index < len) {
+        nums[index] = nums[index] == val ? nums--[len] : nums[index++];
+    }
+    return len;
+}
