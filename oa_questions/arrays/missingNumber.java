@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
@@ -22,10 +26,8 @@ class Solution {
         // Array was not missing any numbers
         return -1;
     }
-}
 
-class Solution {
-    public int missingNumber(int[] nums) {
+    public int missingNumber2(int[] nums) {
         Set<Integer> numSet = new HashSet<Integer>();
         for (int num : nums) numSet.add(num);
 
