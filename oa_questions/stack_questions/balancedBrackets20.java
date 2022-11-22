@@ -71,4 +71,28 @@ public class Solution {
         bufferedReader.close();
         bufferedWriter.close();
     }
+
+
+    // second solution
+
+    public boolean isValid(String s) {
+        Stack<Character> pair = new Stack<>();
+
+        int n = s.length();
+        if (n=0) return true;
+
+        for (int i =0; i <n; i++) {
+            if (s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
+                pair.push(s.charAt(i));
+            } else if (s.charAt(i) == ')') {
+                if (pair.isEmpty() || pair.pop != '(') return false;
+            } else if (s.charAt(i) == ']') {
+                if (pair.isEmpty() || pair.pop != '[') return false;
+            } else if (s.charAt(i) == '}') {
+                if (pair.isEmpty() || pair.pop != '{') return false;
+            }
+        }
+
+        return pair.isEmpty();
+    }
 }
