@@ -73,12 +73,6 @@ public class Solution {
     }
 
 
-
-
-
-
-
-
     // second solution
 
     public boolean isValid(String s) {
@@ -102,6 +96,3 @@ public class Solution {
         return pair.isEmpty();
     }
 }
-
-
-
