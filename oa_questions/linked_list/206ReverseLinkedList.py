@@ -3,7 +3,7 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
+class 206ReverseLinkedList:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         prev, curr = None, head
 
@@ -14,7 +14,7 @@ class Solution:
             curr = nxt
         return prev
 
-class Solution:
+class 206ReverseLinkedList:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head:
             return None

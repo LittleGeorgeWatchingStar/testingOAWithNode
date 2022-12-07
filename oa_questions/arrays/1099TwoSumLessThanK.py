@@ -1,4 +1,4 @@
-class Solution:
+class 1099TwoSumLessThanK:
     def twoSumLessThanK(self, nums: List[int], k: int) -> int:
         nums.sort()
         l, r = 0, len(nums) -1

@@ -1,4 +1,4 @@
-class Solution:
+class 268MissingNumber:
     def missingNumber(self, nums: List[int]) -> int:
         res = len(nums)
 

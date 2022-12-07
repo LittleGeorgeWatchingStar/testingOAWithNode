@@ -1,4 +1,4 @@
-class Solution:
+class 408ValidWordAbbr:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
         i, j = 0, 0
         while i < len(abbr):

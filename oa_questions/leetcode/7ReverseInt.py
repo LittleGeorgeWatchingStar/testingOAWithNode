@@ -1,4 +1,4 @@
-class Solution:
+class 7ReverseInt:
     def reverse(self, x: int) -> int:
         Min = -2147483648
         Max = 2147483647

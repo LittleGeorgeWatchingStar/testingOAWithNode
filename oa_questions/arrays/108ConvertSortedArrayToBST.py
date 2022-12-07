@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class 108ConvertSortedArrayToBST:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
 
         def buildTree(l, r):

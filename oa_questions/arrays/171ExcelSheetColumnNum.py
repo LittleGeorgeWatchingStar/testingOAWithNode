@@ -1,4 +1,4 @@
-class Solution:
+class 171ExcelSheetColumnNum:
     def titleToNumber(self, columnTitle: str) -> int:
         result = 0
         for c in columnTitle:

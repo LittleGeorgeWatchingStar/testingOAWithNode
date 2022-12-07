@@ -1,4 +1,4 @@
-class Solution:
+class 3LongestSubstringWithoutRepeatingChar:
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet = set()
         l = 0

@@ -1,4 +1,4 @@
-class Solution:
+class 69sqrtx:
   def mySqrt(self, a):
     l = 1
     r = a
@@ -10,7 +10,7 @@ class Solution:
         l = m + 1
     return r;
 
-class Solution:
+class 69sqrtx:
   def mySqrt(self, a):
     x = a
     while x * x > a:

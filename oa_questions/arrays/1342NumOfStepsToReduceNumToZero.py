@@ -1,4 +1,4 @@
-class Solution:
+class 1342NumOfStepsToReduceNumToZero:
     def numberOfSteps(self, num: int) -> int:
         steps = 0
 

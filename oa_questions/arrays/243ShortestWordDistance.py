@@ -1,4 +1,4 @@
-class Solution:
+class 243ShortestWordDistance:
     def shortestDistance(self, wordsDict: List[str], word1: str, word2: str) -> int:
         dist = float("inf")
         i, index1, index2 = 0, None, None

@@ -1,4 +1,4 @@
-class Solution:
+class 17LetterCombOfAPhoneNum:
     def letterCombinations(self, digits: str) -> List[str]:
         res = []
         digitToChar = {

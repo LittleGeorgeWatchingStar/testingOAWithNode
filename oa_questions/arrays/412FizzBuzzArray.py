@@ -1,4 +1,4 @@
-class Solution:
+class 412FizzBuzzArray:
     def fizzBuzz(self, n: int) -> List[str]:
 
       res = []

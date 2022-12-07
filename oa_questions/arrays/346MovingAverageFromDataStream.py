@@ -1,4 +1,4 @@
-class MovingAverage:
+class 346MovingAverageFromDataStream:
 
     def __init__(self, size: int):
         self.array = []

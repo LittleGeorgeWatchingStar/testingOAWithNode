@@ -1,4 +1,4 @@
-class Solution {
+class 8StringToIntegerAtoi {
 public:
     int myAtoi(string s) {
         int left = 0, n = s.size();

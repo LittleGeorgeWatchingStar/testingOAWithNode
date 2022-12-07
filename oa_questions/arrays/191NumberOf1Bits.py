@@ -1,4 +1,4 @@
-class Solution:
+class 191NumberOf1Bits:
     def hammingWeight(self, n: int) -> int:
         res = 0
         while n:
@@ -6,7 +6,7 @@ class Solution:
             n >>=1
         return res
 
-class Solution:
+class 191NumberOf1Bits:
     def hammingWeight(self, n: int) -> int:
         res = 0
         

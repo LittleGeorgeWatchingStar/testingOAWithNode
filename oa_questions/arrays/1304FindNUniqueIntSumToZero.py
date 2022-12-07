@@ -1,4 +1,4 @@
-class Solution:
+class 1304FindNUniqueIntSumToZero:
     def sumZero(self, n: int) -> List[int]:
         res = []
 

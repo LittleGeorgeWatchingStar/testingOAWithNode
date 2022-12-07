@@ -1,4 +1,4 @@
-class Solution:
+class 70ClimbingStairs:
     def climbStairs(self, n: int) -> int:
         one, two = 1, 1
 

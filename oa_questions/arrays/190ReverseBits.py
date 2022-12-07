@@ -1,4 +1,4 @@
-class Solution:
+class 190ReverseBits:
     def reverseBits(self, n: int) -> int:
         result = 0
         for i in range(32):
@@ -7,7 +7,7 @@ class Solution:
             n >>= 1
         return result
 
-class Solution:
+class 190ReverseBits:
     def reverseBits(self, n: int) -> int:
         result = 0
         for i in range(32):

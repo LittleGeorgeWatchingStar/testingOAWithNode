@@ -1,4 +1,4 @@
-class Solution:
+class 252MeetingRooms:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
         intervals.sort(key = lambda i : i[0])
 

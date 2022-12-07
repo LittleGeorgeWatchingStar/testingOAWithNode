@@ -1,4 +1,4 @@
-class Solution:
+class 26RemoveDuplicatesFromSortedArray:
     def removeDuplicates(self, nums: List[int]) -> int:
         l = 1
 

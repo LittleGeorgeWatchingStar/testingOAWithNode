@@ -1,8 +1,8 @@
-class Solution:
+class 242ValidAnagram:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
 
-class Solution:
+class 242ValidAnagram:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False

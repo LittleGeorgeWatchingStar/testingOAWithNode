@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class 1214TwoSumBSTs:
     def twoSumBSTs(self, root1: Optional[TreeNode], root2: Optional[TreeNode], target: int) -> bool:
         def in_hashset(r):
             return in_hashset(r.left) | {target - r.val} | in_hashset(r.right) if r else set()

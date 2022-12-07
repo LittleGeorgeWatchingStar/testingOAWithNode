@@ -1,4 +1,4 @@
-class Logger:
+class 359LoggerRateLimiter:
 
     def __init__(self):
         self.mDict = {}

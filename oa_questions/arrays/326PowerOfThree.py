@@ -1,4 +1,4 @@
-class Solution:
+class 326PowerOfThree:
     def isPowerOfThree(self, n: int) -> bool:
         if n == 1:
             return True

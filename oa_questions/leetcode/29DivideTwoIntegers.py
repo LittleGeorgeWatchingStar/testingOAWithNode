@@ -1,4 +1,4 @@
-class Solution:
+class 29DivideTwoIntegers:
     def divide(self, dividend: int, divisor: int) -> int:
         positive = (dividend < 0) is (divisor < 0)
         dividend, divisor = abs(dividend), abs(divisor)

@@ -1,4 +1,4 @@
-class Solution:
+class 169majorityElement:
     def majorityElement(self, nums: List[int]) -> int:
         count ={}
 
@@ -11,7 +11,7 @@ class Solution:
             maxCount = max(count[n], maxCount)
         return res
 
-class Solution:
+class 169majorityElement:
     def majorityElement(self, nums: List[int]) -> int:
         res, count = 0, 0
 

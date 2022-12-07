@@ -1,4 +1,4 @@
-class Solution1:
+class 163MissingRange:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         output = []
 
@@ -14,7 +14,7 @@ class Solution1:
                     output.append(f"{lowerBound}->{upperBound}")
         return output
 
-class Solution2:
+class 163MissingRange:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         output = []
 

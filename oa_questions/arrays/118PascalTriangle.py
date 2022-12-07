@@ -1,4 +1,4 @@
-class Solution:
+class 118PascalTriangle:
     def generate(self, numRows: int) -> List[List[int]]:
         res = [[1]]
 

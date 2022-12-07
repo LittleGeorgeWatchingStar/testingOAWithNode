@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
- var lengthOfLongestSubstring = function(s) {
+ var 3lengthOfLongestSubstring = function(s) {
     let tracker = new Map()
     let left = 0
     let right = 0

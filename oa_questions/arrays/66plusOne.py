@@ -1,4 +1,4 @@
-class Solution:
+class 66plusOne:
     def plusOne(self, digits: List[int]) -> List[int]:
         digits = digits[::-1]
         one, i = 1, 0

@@ -1,4 +1,4 @@
-class Solution:
+class 125ValidPalindrome:
     def isPalindrome(self, s: str) -> bool:
         newStr = ""
 
@@ -8,7 +8,7 @@ class Solution:
         return newStr == newStr[::-1]
 
 
-class Solution:
+class 125ValidPalindrome:
     def isPalindrome(self, s: str) -> bool:
         l, r = 0, len(s) - 1
 

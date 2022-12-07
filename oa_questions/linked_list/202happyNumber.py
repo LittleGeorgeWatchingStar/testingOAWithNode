@@ -1,4 +1,4 @@
-class Solution:
+class 202happyNumber:
     def isHappy(self, n: int) -> bool:
         visit = set()
         while n not in visit:

@@ -1,4 +1,4 @@
-class Solution:
+class 217ContainDuplicate:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
 

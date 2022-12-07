@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.next = None
 
-class Solution:
+class 160IntersectionOfTwoLinkedLists:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         l1, l2 = headA, headB
         while l1 != l2:

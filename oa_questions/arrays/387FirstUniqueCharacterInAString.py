@@ -1,4 +1,4 @@
-class Solution:
+class 387FirstUniqueCharacterInAString:
     def firstUniqChar(self, s: str) -> int:
         lookup = collections.Counter(s)
 
@@ -7,7 +7,7 @@ class Solution:
                 return i
         return -1
 
-class Solution:
+class 387FirstUniqueCharacterInAString:
     def firstUniqChar(self, s: str) -> int:
         lookup = dict()
         for i in s:

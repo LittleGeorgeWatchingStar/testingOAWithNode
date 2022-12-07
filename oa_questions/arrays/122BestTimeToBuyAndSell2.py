@@ -1,4 +1,4 @@
-class Solution:
+class 122BestTimeToBuyAndSell2:
     def maxProfit(self, prices: List[int]) -> int:
         profit = 0
 

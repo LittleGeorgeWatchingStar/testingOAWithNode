@@ -1,4 +1,4 @@
-class Solution:
+class 136SingleNumber:
     def singleNumber(self, nums: List[int]) -> int:
         res = 0
 
