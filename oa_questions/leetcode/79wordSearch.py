@@ -1,4 +1,4 @@
-class Solution:
+class 79wordSearch:
     def exist(self, board: List[List[str]], word: str) -> bool:
         rows, cols = len(board), len(board[0])
         path = set()

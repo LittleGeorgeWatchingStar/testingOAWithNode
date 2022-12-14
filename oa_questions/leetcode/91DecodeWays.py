@@ -1,4 +1,4 @@
-class Solution:
+class 91DecodeWays:
     def numDecodings(self, s: str) -> int:
         dp = { len(s) : 1}
 

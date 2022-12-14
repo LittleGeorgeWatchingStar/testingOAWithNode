@@ -1,4 +1,4 @@
-class Solution:
+class 78subsets:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = []
         subset = []
