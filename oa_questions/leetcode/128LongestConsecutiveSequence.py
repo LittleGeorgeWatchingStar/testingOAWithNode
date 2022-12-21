@@ -11,7 +11,7 @@ class 128LongestConsecutiveSequence:
                 while start in numSet:
                     start += 1
                 longest = max(longest, start - n )
-            return longest
+        return longest
 
 class 128LongestConsecutiveSequence:
     def longestConsecutive(self, nums: List[int]) -> int:
@@ -27,4 +27,4 @@ class 128LongestConsecutiveSequence:
                 while (n + length) in numset:
                     length += 1
                 longest = max(length, longest)
-            return longest
+        return longest
