@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class 105ConstructBinaryTreeFromInorderAndPreorder:
+class 105ConstructBinaryTreeFromInorderAndPreorderRecursive:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> Optional[TreeNode]:
         if not preorder or not inorder:
             return None
