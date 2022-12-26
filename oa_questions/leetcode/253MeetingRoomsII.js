@@ -1,6 +1,7 @@
 /**
  * @param {number[][]} intervals
  * @return {number}
+ * 253MeetingRooms2
  */
  var minMeetingRooms = function(intervals) {
     if (intervals.length === 0) {
