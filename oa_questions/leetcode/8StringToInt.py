@@ -1,4 +1,5 @@
-class 8StringToInt:
+#8StringToInt
+class solution:
     def myAtoi(self, s: str) -> int:
         s = s.lstrip()
         if not s:

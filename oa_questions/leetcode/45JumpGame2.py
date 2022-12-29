@@ -1,4 +1,5 @@
-class 45JumpGame2:
+#45JumpGame2
+class solution:
     def jump(self, nums: List[int]) -> int:
         steps = 0
         l = r = 0

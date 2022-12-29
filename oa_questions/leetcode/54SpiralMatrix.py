@@ -1,4 +1,5 @@
-class 54SpiralMatrix:
+#54SpiralMatrix
+class solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         res = []
         left, right = 0, len(matrix[0])

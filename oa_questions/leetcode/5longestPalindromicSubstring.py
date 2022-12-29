@@ -1,4 +1,5 @@
-class 5longestPalindromicSubstring:
+#5longestPalindromicSubstring
+class solution:
     def longestPalindrome(self, s: str) -> str:
         res = ""
         reslen  = 0

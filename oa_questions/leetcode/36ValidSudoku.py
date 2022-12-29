@@ -1,4 +1,5 @@
-class 36ValidSudoku:
+#36ValidSudoku
+class solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         cols = collections.defaultdict(set)
         rows = collections.defaultdict(set)

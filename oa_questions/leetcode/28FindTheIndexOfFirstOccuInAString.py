@@ -1,4 +1,5 @@
-class 28FindTheIndexOfFirstOccuInAString:
+#28FindTheIndexOfFirstOccuInAString
+class solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == "":
             return 0

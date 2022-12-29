@@ -1,4 +1,5 @@
-class 49groupAnagrams:
+#49groupAnagrams
+class solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         res = collections.defaultdict(list)
 

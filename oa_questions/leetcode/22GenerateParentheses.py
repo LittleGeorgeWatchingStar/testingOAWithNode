@@ -1,4 +1,5 @@
-class 22GenerateParentheses:
+#22GenerateParentheses
+class solution:
     def generateParenthesis(self, n: int) -> List[str]:
         stack = []
         res = []

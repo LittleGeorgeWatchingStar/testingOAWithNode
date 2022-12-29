@@ -1,4 +1,5 @@
-class 50Pow:
+#50Pow(x,n)
+class solution:
     def myPow(self, x: float, n: int) -> float:
         def helper(x,n):
             if x ==0: return 0

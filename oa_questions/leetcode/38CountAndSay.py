@@ -1,4 +1,5 @@
-class 38CountAndSay:
+#38CountAndSay
+class solution:
     def countAndSay(self, n: int) -> str:
         seq = "1"
         for i in range(n-1):

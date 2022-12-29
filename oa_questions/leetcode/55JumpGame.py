@@ -1,4 +1,5 @@
-class 55JumpGame:
+#55JumpGame
+class solution:
     #greedy solution
     def canJump(self, nums: List[int]) -> bool:
         goal = len(nums) - 1

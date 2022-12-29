@@ -1,4 +1,5 @@
-class 39CombinationSumBacktracking:
+#39CombinationSumBacktracking
+class solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         res = []
 
