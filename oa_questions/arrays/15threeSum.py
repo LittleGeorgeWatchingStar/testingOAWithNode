@@ -1,4 +1,5 @@
-class 15threeSum:
+#15threeSum
+class solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
         nums.sort()

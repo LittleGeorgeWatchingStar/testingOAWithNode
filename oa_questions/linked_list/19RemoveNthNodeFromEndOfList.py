@@ -3,7 +3,8 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class 19RemoveNthNodeFromEndOfList:
+#19RemoveNthNodeFromEndOfList
+class solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummy = ListNode(0, head)
         left = dummy

@@ -1,4 +1,5 @@
-class 35SearchInsertPosition:
+#35SearchInsertPosition
+class solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         l, r = 0, len(nums) -1
 
