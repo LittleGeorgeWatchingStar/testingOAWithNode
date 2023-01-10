@@ -1,4 +1,5 @@
-class 350IntersectionOfTwoArrays2:
+#350IntersectionOfTwoArrays2
+class solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         counts = collections.Counter(nums2)
         res = []
