@@ -1,4 +1,5 @@
-class 179LargestNumber:
+#179LargestNumber
+class solution:
     def largestNumber(self, nums: List[int]) -> str:
         for i, n in enumerate(nums):
             nums[i] = str(n)

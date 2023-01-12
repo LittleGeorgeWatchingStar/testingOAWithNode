@@ -1,4 +1,5 @@
-class 279PerfectSquares:
+#279PerfectSquares
+class solution:
     def numSquares(self, n: int) -> int:
         dp = [n] * (n+1)
         dp[0] = 0
