@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class 102BinaryTreeLevelOrderBFS:
+# 102BinaryTreeLevelOrderBFS
+class solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         res = []
 

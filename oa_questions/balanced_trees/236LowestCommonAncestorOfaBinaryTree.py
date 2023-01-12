@@ -4,8 +4,8 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-
-class 236LowestCommonAncestorOfaBinaryTree:
+# 236LowestCommonAncestorOfaBinaryTree
+class solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         self.ans = None
 

@@ -1,8 +1,9 @@
 /**
  * @param {string} s
  * @return {number}
+ * 3lengthOfLongestSubstring
  */
- var 3lengthOfLongestSubstring = function(s) {
+ var solution= function(s) {
     let tracker = new Map()
     let left = 0
     let right = 0

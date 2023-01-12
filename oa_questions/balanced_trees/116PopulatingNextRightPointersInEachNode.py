@@ -7,8 +7,9 @@ class Node:
         self.right = right
         self.next = next
 """
+#116PopulatingNextRightPointersInEachNode
 
-class 116PopulatingNextRightPointersInEachNode:
+class solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         cur, nxt = root, root.left if root else None
 

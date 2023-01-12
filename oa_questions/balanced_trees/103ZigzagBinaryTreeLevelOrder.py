@@ -4,7 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class 103BinaryTreeZigzagLevelOrder:
+# 103BinaryTreeZigzagLevelOrder
+class solution:
     def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         res = []
 
