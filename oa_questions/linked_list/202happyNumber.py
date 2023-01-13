@@ -1,4 +1,5 @@
-class 202happyNumber:
+#202happyNumber
+class solution:
     def isHappy(self, n: int) -> bool:
         visit = set()
         while n not in visit:
