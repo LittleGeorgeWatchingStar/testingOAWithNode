@@ -1,4 +1,5 @@
-#269269AlienDictionary
+#269AlienDictionary
+#Topological sort
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         adj = {char: set() for word in words for char in word}

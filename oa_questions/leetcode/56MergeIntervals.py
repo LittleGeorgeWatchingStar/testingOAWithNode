@@ -1,4 +1,5 @@
-class 56MergeIntervals:
+#56MergeIntervals
+class solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         #O(nlogn)
         intervals.sort(key = lambda i : i[0])
