@@ -1,4 +1,5 @@
-class 266PalindromePermutation:
+#266PalindromePermutation
+class solution:
     def canPermutePalindrome(self, s: str) -> bool:
         if len(s) == 0:
             return True
