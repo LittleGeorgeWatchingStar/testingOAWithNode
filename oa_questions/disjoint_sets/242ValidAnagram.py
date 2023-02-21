@@ -1,8 +1,14 @@
-class 242ValidAnagram:
+#242ValidAnagram
+class solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
+    
+    def are_anagrams(s1, s2):
+        if len(s1) != len(s2):
+            return False
+        return Counter(s1) == Counter(s2)
 
-class 242ValidAnagram:
+class solution2:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
