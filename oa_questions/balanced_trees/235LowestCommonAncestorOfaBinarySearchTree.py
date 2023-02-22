@@ -1,3 +1,4 @@
+#235LowestCommonAncestorOfaBinarySearchTree
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -5,7 +6,7 @@
 #         self.left = None
 #         self.right = None
 
-class 235LowestCommonAncestorOfaBinarySearchTree:
+class solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         cur = root
 
